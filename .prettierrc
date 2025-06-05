@@ -12,22 +12,9 @@
         "",
         "<TYPES>"
     ],
-    "importOrderParserPlugins": ["typescript", "importAssertions"],
+    "importOrderParserPlugins": ["importAssertions"],
     "jsonRecursiveSort": true,
-    "overrides": [
-        {
-            "files": "*.astro",
-            "options": {
-                "parser": "astro"
-            }
-        }
-    ],
-    "plugins": [
-        "@ianvs/prettier-plugin-sort-imports",
-        "prettier-plugin-astro",
-        "prettier-plugin-sort-json",
-        "prettier-plugin-tailwindcss"
-    ],
+    "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-sort-json"],
     "printWidth": 100,
     "tabWidth": 4
 }
