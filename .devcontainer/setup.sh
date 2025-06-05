@@ -1,1 +1,0 @@
-../external/configurations/devcontainers/bun/setup.sh
